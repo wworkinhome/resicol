@@ -1,7 +1,11 @@
+import Head from '@/components/Head';
+import Navbar from '@/components/Navbar';
+
 export default function Home() {
   return (
     <>
-      <div className="bg-red-200">HOME</div>
+      <Head />
+      <Navbar />
     </>
   );
 }
