@@ -1,5 +1,3 @@
-const Recover_password = () => {
+export const recover_password = () => {
   return <div>recover_password</div>;
 };
-
-export default Recover_password;

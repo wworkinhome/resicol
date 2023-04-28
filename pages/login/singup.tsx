@@ -1,5 +1,3 @@
-const Singup = () => {
+export const singup = () => {
   return <div>singup</div>;
 };
-
-export default Singup;
