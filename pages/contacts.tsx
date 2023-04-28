@@ -1,3 +1,3 @@
 export default function contacts() {
-  return <div>contacts</div>;
+  return <div>Esto es el componente de contacts</div>;
 }
