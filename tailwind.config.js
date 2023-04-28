@@ -8,7 +8,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'my-custom-color': '#fffff'
+        'whitesmoke': '#E6ECF5',
+        'darkblue': '#07469C',
+        'lightblue': '#0099E1',
+        'white01': '#FFFFFF',
+        'lightred': '#EF3061',
+        'lightblack': '#333333',
+        'lightgray': '#757575',
+        'white02': '#F2F2F2'
       },
       screens: {
         xs: '375px',
