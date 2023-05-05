@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'my-custom-color': '#fffff'
+        'my-custom-color': ''
       },
       screens: {
         xs: '375px',
@@ -17,6 +17,11 @@ module.exports = {
         lg: '1200px',
         xl: '1536px',
       },
+      fontFamily: {
+        Mulish: ['Mulish', 'sans-serif'],
+        Nunito: ['Nunito', 'sans-serif']
+
+      }
     },
   },
   plugins: [],
