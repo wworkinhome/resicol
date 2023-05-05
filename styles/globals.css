@@ -1,3 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --lightgray: #E6ECF5;
+    --darkblue: #07469C;
+    --lightblue: #0099E1;
+    --white: #FFFFFF;
+    --red: #EF3061;
+    --lightblack: #333333;
+    --gray: #757575;
+    --lightwhite: #F2F2F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+
+/***************************************LOGIN*********************************************/
+.container-login {
+    display: flex;
+    flex-direction: column;
+    border: 5px dashed purple;
+    
+}
+
+.resident{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.resident-pc{
+    position: absolute;
+    top: 4vw;
+    left: 8vw;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.resicol {
+    width: 100%;
+}
+
+.content-login {
+    border: 3px dashed brown;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-login {
+    padding: 10px;
+    border-radius: 1rem;
+    background: var(--lightblue);
+    width: 150px;
+}
+
+.inputs-container {
+    margin: 2rem;
+    display: flex;
+    /* border: 3px dashed blue; */
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.link-signup {
+    display: flex;
+    column-gap: 8px;
+    padding-top: 2rem;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.text-label {
+    color: var(--gray);
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel slide {
+    display: flex;
+    flex-direction: row;
+}
+
+/* #flex {
+    border: 3px dashed yellow;
+} */
+
+
+.img-person {
+    width: 45%;
+}
+
+.special {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 43vw;
+    /* border: 3px dashed blueviolet; */
+    color: var(--darkblue);
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 3rem;
+
+    left: 0;
+    bottom: 1rem;
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    padding-left: 7rem;
+}
+
+.carousel-indicators {
+    left: 63vw;
+    /* border: 3px dashed darkblue; */
+    padding-left: 3rem;
+    margin-left: -43%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+}
+
+/* .item {
+    position: absolute;
+} */
+
+.carousel-indicators li {
+    border: 1px solid var(--darkblue);
+
+}
+
+.carousel-indicators .active {
+    background-color: var(--darkblue);
+}
+
+.img-rectangle {
+    position: absolute;
+    z-index: -6;
+    left: 0;
+    width: 100%;
+}
+
+.footer-login {
+    /* padding: 10rem 1rem 3rem 1rem; */
+    border: 3px dashed yellow;
+}
+
+/* .carousel-inner {
+    border: 3px dashed yellow;
+} */
+
+.rectangle-blue {
+    position: relative;
+}
+
+/**********************************MEDIA_SCREEN*************************************************************/
+@media only screen and (min-width: 300px) {
+    .special {
+        padding: 1rem;
+        row-gap: 1rem;
+        font-size: small;
+        right: 0;
+        left: initial;
+        bottom: 2.5rem;
+        width: 50%;
+    }
+
+    .carousel-indicators {
+        left: 0;
+        bottom: 1rem;
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        padding-left: 7rem;
+    }
+    .resident-pc{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .container-login {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .resident{
+        display: none;
+    }
+
+    .resident-pc{
+        display: flex;
+    }
+
+    .content-login {
+        width: 60%;
+        margin-top: 0;
+        justify-content: center;
+    }
+
+    .img-person {
+        width: 100%;
+    }
+
+    .special {
+        left: 0;
+        color: white;
+        bottom: 5rem;
+        font-size: larger;
+        width: 100%;
+    }
+
+    .carousel-indicators {
+        left: 0;
+        bottom: 3rem;
+        width: 100%;
+        margin-left: 0;
+        text-align: start;
+        display: flex;
+        flex-direction: row;
+        column-gap: 0.5rem;
+        padding-left: 1.5rem;
+    }
+
+    .carousel-indicators .active {
+        background-color: var(--white);
+    }
+
+    .carousel-indicators li {
+        border: 1px solid var(--white);
+    }
+
+    .footer-login {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-992px) {}
