@@ -1,4 +1,5 @@
 import { Button } from "@material-tailwind/react"
+import Image from "next/image"
 
 export const LayoutPassword = () => {
     return (
@@ -67,8 +68,8 @@ export const LayoutPassword = () => {
                     style={{ width: '500px', height: '349px', background: 'white', position: 'absolute', zIndex: '-5', borderRadius: '8px' }}>
                 </div>
 
-                <img className="sm:hidden absolute w-[100%] bottom-0" src="/images/Img-RP-footer.svg" alt="" />
-                <img className="absolute w-[100%] bottom-0" src="/images/Img-RP-PC.svg" alt="" />
+                <Image width={1} height={1} className="sm:hidden absolute w-[100%] bottom-0" src="/images/Img-RP-footer.svg" alt="" />
+                <Image width={1} height={1} className="absolute w-[100%] bottom-0" src="/images/Img-RP-PC.svg" alt="" />
 
                 <div className="xss:hidden sm:flex items-center gap-3 relative top-[5rem]">
                     <h3>Or Don't have an account?</h3>
