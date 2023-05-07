@@ -2,10 +2,15 @@
 const Info = () => {
     return (
         <>
-            <section className="bg-[#FFFFFF]">
+            <section>
 
                 <div>
-                    <img src="../assets/image/Rectangle 7.png" alt="bussines" className="absolute top-[913px] bottom-[141px] left-[191px] 
+                    <img src="../assets/image/Rectangle8.png" alt="bussines"
+                        className="absolute top-[790px] left-[1] w-[1281px] h-[651px] -z-50" />
+                </div>
+
+                <div>
+                    <img src="../assets/image/imagen1.png" alt="bussines" className="absolute top-[913px] bottom-[141px] left-[191px] 
                 right-[685px] rounded-[10px]
                 " />
                 </div>
@@ -20,8 +25,6 @@ const Info = () => {
                         <br />
                         Whether it’s matching you to your ideal investment, Golden Visa program or tax benefit, we help investors successfully uproot their lives and lifestyles.</p>
                 </div>
-                {/* <img src="../assets/image/Rectangle 8.png" alt="bussines" className="absolute top-[790px] left-[1]
-                 w-[1281px] h-[651px]" /> */}
 
             </section>
 
