@@ -60,7 +60,6 @@ const Testimonials = () => {
               font-Poppins font-medium text-[15.8px] text-center text-white"
             >
               <Link href="/signup">Get started</Link>
-              
             </button>
           </div>
 
@@ -78,33 +77,36 @@ const Testimonials = () => {
           {/* Grupo de cards */}
 
           <div>
-            <div className="absolute w-[241px] h-[219px] left-[243px] right-[796px] top-[1971px] bottom-[926px] shadow-lg shadow-slate-400"></div>
-            <h2 className="absolute w-[196px] h-[22px] left-[265px] right-[819px] top-[2005px] bottom-[1089px] text-[#07469C] text-[20px] font-Nunito font-semibold text-center">
-              Speed and Simplicity
-            </h2>
-            <p className="absolute w-[190px] h-[100px] top-[2045px] left-[268px] right-[822px] bottom-[971px] font-Mulish text-center text-[14px] font-normal">
-              Easy, traveler-friendly application process. Simple and much less
-              complicated than dealing with foreign governments.
-            </p>
+            <div className="absolute w-[241px] h-[219px] left-[243px] right-[796px] top-[1971px] bottom-[926px] shadow-lg shadow-slate-400">
+              <h2 className="absolute w-[196px] h-[22px] left-[22px] right-[23px] top-[34px] bottom-[163px] text-[#07469C] text-[20px] font-Nunito font-semibold text-center">
+                Speed and Simplicity
+              </h2>
+              <p className="absolute w-[190px] h-[100px] top-[74px] left-[25px] right-[26px] bottom-[45px] font-Mulish text-center text-[14px] font-normal">
+                Easy, traveler-friendly application process. Simple and much
+                less complicated than dealing with foreign governments.
+              </p>
+            </div>
 
-            <div className="absolute w-[241px] h-[219px] left-[519px] right-[520px] top-[1971px] bottom-[926px] shadow-lg shadow-slate-400"></div>
-            <h2 className="absolute w-[196px] h-[22px] left-[544px] right-[546px] top-[2005px] bottom-[1089px] font-Mulish text-[#07469C] text-[20px] text-center font-bold ">
-              Secure and Safe
-            </h2>
-            <p className="absolute w-[190px] h-[100px] top-[2045px] left-[544px] right-[546px] bottom-[951px] font-Mulish text-center text-[14px] font-normal">
-              World-class data centers and state-of-the-art security. Your
-              credit card information will never be exposed to any government
-              websites!
-            </p>
+            <div className="absolute w-[241px] h-[219px] left-[519px] right-[520px] top-[1971px] bottom-[926px] shadow-lg shadow-slate-400">
+              <h2 className="absolute w-[196px] h-[22px] left-[45px] right-[46px] top-[34px] bottom-[163px] font-Mulish text-[#07469C] text-[20px] text-center font-bold ">
+                Secure and Safe
+              </h2>
+              <p className="absolute w-[190px] h-[100px] top-[74px] left-[25px] right-[26px] bottom-[25px] font-Mulish text-center text-[14px] font-normal">
+                World-class data centers and state-of-the-art security. Your
+                credit card information will never be exposed to any government
+                websites!
+              </p>
+            </div>
 
-            <div className="absolute w-[241px] h-[219px] left-[795px] right-[244px] top-[1971px] bottom-[926px] shadow-lg shadow-slate-400"></div>
-            <h2 className="absolute w-[190px] h-[120px] left-[830px] right-[279px] top-[2005px] bottom-[1089px] font-Mulish text-[#07469C] text-[20px] text-center font-bold">
-              Awesome support
-            </h2>
-            <p className="absolute w-[190px] h-[100px] top-[2045px] left-[820px] right-[270px] bottom-[951px] font-Mulish text-center text-[14px] font-normal">
-              Our customer support is ready to help 24/7. We want you to enjoy
-              your travels and avoid the stress of getting a residence!
-            </p>
+            <div className="absolute w-[241px] h-[219px] left-[795px] right-[244px] top-[1971px] bottom-[926px] shadow-lg shadow-slate-400">
+              <h2 className="absolute w-[171px] h-[22px] left-[35px] right-[35px] top-[34px] bottom-[163px] font-Mulish text-[#07469C] text-[20px] text-center font-bold">
+                Awesome support
+              </h2>
+              <p className="absolute w-[190px] h-[100px] top-[85px] left-[25px] right-[26px] bottom-[25px] font-Mulish text-center text-[14px] font-normal">
+                Our customer support is ready to help 24/7. We want you to enjoy
+                your travels and avoid the stress of getting a residence!
+              </p>
+            </div>
           </div>
 
           {/* Grupo de flecha arriba */}
