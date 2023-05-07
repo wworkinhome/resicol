@@ -19,8 +19,15 @@ module.exports = {
       },
       fontFamily: {
         Mulish: ['Mulish', 'sans-serif'],
-        Nunito: ['Nunito', 'sans-serif']
+        Nunito: ['Nunito', 'sans-serif'],
+        Poppins: ['Poppins', 'sans-serif' ],
+        Inter: ['Inter', 'sans-serif' ]
 
+      },
+
+      backgroundImage: {
+        'rectangle9': "url('/assets/image/Rectangle9.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
       }
     },
   },
