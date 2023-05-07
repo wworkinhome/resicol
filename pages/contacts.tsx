@@ -36,7 +36,7 @@ const Contacts = () => {
                 transition-all placeholder-shown:border-blue-gray-200 
                 focus:border-[#0099E1] focus:outline-0 disabled:border-0 
                 disabled:bg-blue-gray-50 left-[47.92px] right-[41.08px] top-[141.12px] bottom-[268.88px]
-                absolute items-center z-50 "
+                absolute items-center z-50"
           />
 
           <label
@@ -61,7 +61,7 @@ const Contacts = () => {
                 transition-all placeholder-shown:border-blue-gray-200 
                 focus:border-[#0099E1] focus:outline-0 disabled:border-0 
                 disabled:bg-blue-gray-50 left-[47.92px] right-[41.08px] top-[218px] bottom-[192px]
-                absolute items-center z-50 "
+                absolute items-center z-50"
           />
 
           <label
@@ -81,7 +81,8 @@ const Contacts = () => {
         </div>
 
         <div>
-          <button className="flex flex-row items-center p-[18.96px 50.56px] gap-[12.64px] absolute bg-[#0099E1] rounded-[12.64px] w-[250.72px] h-[61.92px] left-[400px] right-[627.28px] top-[2673px] bottom-[381.1px] z-50">
+          <button className="flex flex-row items-center p-[18.96px 50.56px] gap-[12.64px] absolute 
+          bg-[#0099E1] rounded-[12.64px] w-[250.72px] h-[61.92px] left-[400px] right-[627.28px] top-[2673px] bottom-[381.1px] z-50">
             <p
               className="absolute font-Poppins font-medium text-center text-white text-[15.8]
             w-[118px] h-[24px] left-[82.16px] right-[50.56px] top-[18.96px] bottom-[18.96px] z-50"
