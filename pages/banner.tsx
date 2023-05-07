@@ -51,9 +51,9 @@ const Banner = () => {
             {/* Icono de avión */}
             <img
               src="../assets/image/avion.png"
-              alt=""
+              alt="Avion"
               className="absolute w-[23.94px] h-[24px] Left-[17.01px] 
-                    top-[528px] right-[16.01px]"
+                    top-[17px] right-[16.01px] bottom-[16px]"
             />
           </div>
         </div>
