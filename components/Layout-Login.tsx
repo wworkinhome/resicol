@@ -85,7 +85,7 @@ export const LayaoutLogin = () => {
               Sign up
             </a>
           </div>
-          
+
         </div>
 
         <footer className='footer-login'>
