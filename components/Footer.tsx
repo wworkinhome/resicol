@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       <section>
-        <div className="bg-[#07469C] absolute w-[1280px] h-[198px] left-0 top-[2918px] -z-50"></div>
+        <div className="bg-[#07469C] absolute w-full h-[198px] left-0 top-[2918px] -z-50"></div>
         <div className="absolute bg-white rounded-full left-[98px] right-[1127px] top-[3002px] bottom-[59px] w-[55px] h-[55px]"></div>
         <img
           src="/assets/image/mail.png"

@@ -52,19 +52,15 @@ const Testimonials = () => {
             <img
               src="../assets/image/Rectangle 13.png"
               alt="line"
-              className="absolute w-7 h-[7px] left-[234px] top-[152px] bottom-[237px]"
+              className="absolute w-[28px] h-[7px] left-[234px] top-[152px] bottom-[237px]"
             />
             <button
               className="absolute items-center p-5 rounded-[12.64px] gap-3 w-[157px] h-[44px] 
               left-[183px] right-[184px] top-[304px] bottom-[48px] bg-[#0099E1] 
-              rounded-[12.64px]font-Poppins font-medium text-[15.8px] text-center text-white"
+              font-Poppins font-medium text-[15.8px] text-center text-white"
             >
-              <Link href="/signup">
-                <p className="font-Poppins text-center absolute text-base gap-3 
-                text-white w-[90px] h-[24px] text-[15.8px] text-center left-[30px] right-[20px] top-[15px] bottom-[10px]">
-                  Get started
-                </p>
-              </Link>
+              <Link href="/signup">Get started</Link>
+              
             </button>
           </div>
 

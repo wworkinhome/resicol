@@ -18,7 +18,7 @@ const Header = () => {
         <div>
           <button className='content-center absolute items-center p-5 rounded-[12.64px] gap-3 w-[157px] h-[44px] left-[1023px] right-[100.5px] 
           top-[36px] bottom-[751.5px] bg-[#0099E1] font-Poppins font-medium text-[15.8px] text-center text-white'>
-            <Link href="/signup"><p className='font-poppins  text-center order-[0] flex-none flex-grow-0 text-base h-6 gap-3 text-white text-[15.8px] content-center left-[1024px] top-[46px] bottom-[761.5px]'>Get Started</p></Link>
+            <Link href="/signup">Get Started</Link>
           </button>
         </div>
       </div>
