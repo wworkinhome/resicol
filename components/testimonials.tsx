@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Testimonials = () => {
   return (
     <>
-      <div className="to-zinc-900 shadow-zinc-500">
+      <div className="to-zinc-900 shadow-zinc-500" id="#testimonials">
         <section>
           {/* Todo el texto Izquierdo */}
           <div>
@@ -112,10 +112,11 @@ const Testimonials = () => {
           {/* Grupo de flecha arriba */}
           <div>
             <div className="bg-white absolute w-[30px] h-[30px] left-[1077px] right-[173px] top-[2241px] bottom-[845px] animate-bounce"></div>
+            <Link href= '/' >
             <img
               src="../assets/image/flechaarriba.png"
               className="absolute w-[14] h-[16] left-[1085px] right-[181px] top-[2248px] bottom-[882px] animate-bounce"
-            />
+            /></Link>
           </div>
           <h2 className="absolute font-Mulish font-medium text-[14px] w-[75px] h-[18px] left-[1121px] right-[84px] top-[2247px] bottom-[851px]">
             Back to top

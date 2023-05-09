@@ -7,9 +7,8 @@ const Banner = () => {
           <img
             src="/assets/image/fondo.png"
             alt="Fondo"
-            className="absolute w-full
-                h-[831.5px] left-0  top-0 bottom-[83.7px] font-"
-            z-50
+            className="absolute w-full h-[831.5px] left-0  top-0 bottom-[83.7px] -z-50 "
+            
           />
         </div>
 
