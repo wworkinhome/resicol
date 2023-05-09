@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Logo from '../public/assets/flag/4x3/mx.svg';
 
 /** import images of carousel */
-import Slider from '@/components/Slider';
 
 const signup = () => {
   return (
@@ -79,7 +78,6 @@ const signup = () => {
               <div className="w-full h-[111px] mt-[24px] bg-[#E6ECF5]"></div>
             </div>
             <div className="w-1/3" />
-            <Slider></Slider>
           </div>
         </div>
       </div>
