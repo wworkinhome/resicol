@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { navigation } from '../pages/data';
+import { navigation } from '../components/data';
 
 export default function Nav() {
   return (
