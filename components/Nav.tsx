@@ -10,12 +10,12 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link href="../testimonials" legacyBehavior>
+          <Link href="#testimonials" legacyBehavior>
             <a className='absolute font-Nunito font-medium text-[16px] w-[87px] h-[22px] left-[612px] right-[581px] top-[47px] bottom-[762.5px]'>Testimonials</a>
           </Link>
         </li>
         <li>
-          <Link href="../contacts" legacyBehavior>
+          <Link href="#contacts" legacyBehavior>
             <a className='absolute font-Nunito font-medium text-[16px] w-[64px] h-[22px] left-[740px] right-[476px] top-[47px] bottom-[762.5px] '>Contacts</a>
           </Link>
         </li>

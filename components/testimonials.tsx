@@ -7,7 +7,7 @@ const Testimonials = () => {
         <section>
           {/* Todo el texto Izquierdo */}
           <div>
-            <h2 className=" font-Nunito font-semibold text-[32px] text-[#07469C] absolute w-[279px] h-[105px] left-[190px] right-[811px] top-[1407px] bottom-[1604px]">
+            <h2 className=" font-Nunito font-semibold text-[32px] text-[#07469C] absolute w-[279px] h-[105px] left-[190px] right-[811px] top-[1407px] bottom-[1604px]" id='testimonials'>
               Seamless service targeting your unique needs
             </h2>
             <img
