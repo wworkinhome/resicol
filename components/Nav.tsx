@@ -1,24 +1,19 @@
 import Link from 'next/link';
+import { navigation } from '../pages/data';
 
 export default function Nav() {
   return (
     <nav>
       <ul className="flex space-x-8 capitalize">
-        <li>
-          <Link href="/" legacyBehavior>
-            <a>Home</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/testimonials" legacyBehavior>
-            <a>Testimonials</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/contacts" legacyBehavior>
-            <a>Contacts</a>
-          </Link>
-        </li>
+        {navigation.map((item, index) => {
+          return (
+            <li key={index}>
+              <Link href={item.href} legacyBehavior>
+                <a>{item.name}</a>
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );
