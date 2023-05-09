@@ -10,8 +10,15 @@ export default function Document() {
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
         ></link>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+        />
         <Script id='my-script' src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js'>   </Script>
         <Script id='my-script' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'>   </Script>
+        <Script src="node_modules/@material-tailwind/html@latest/scripts/dismissible.js"></Script>
+        <Script src="https://unpkg.com/@material-tailwind/html@latest/scripts/dismissible.js"></Script>
+        <Script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></Script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
