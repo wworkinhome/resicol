@@ -2,7 +2,7 @@ const Contacts = () => {
   return (
     <>
       <section>
-        <div className="bg-[url('/assets/image/Rectangle9.png')] absolute w-full h-[615px] left-0 top-[2303px] bottom-[198px] -z-50"></div>
+        <div className="bg-[url('/assets/image/Rectangle9.png')] absolute w-full h-[615px] left-0 top-[2303px] bottom-[198px] -z-50" id='contacts'></div>
         <div className="bg-[#EEEEEE] absolute w-[553px] h-[410px] left-[364px] right-[363px] top-[2386px] bottom-[320px] rounded-[18.96px] box-content shadow-lg shadow-slate-400 z-40">
           <input
             placeholder=""
