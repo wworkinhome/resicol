@@ -1,4 +1,3 @@
-//navigation
 export const navigation = [
   {
     name: 'Home',
