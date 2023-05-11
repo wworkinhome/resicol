@@ -1,8 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Logo from '../public/assets/flag/4x3/mx.svg';
+import Logo from '/public/assets/flag/4x3/co.svg';
 
-/** import images of carousel */
 
 const signup = () => {
   return (
@@ -12,7 +11,7 @@ const signup = () => {
           <div className="flex w-full  mx-auto shadow-lg overflow-hidden">
             <div className="w-2/3 bg-[#E2E2E2]">
               <div className="flex ml-[96px] mt-[36px] ">
-                <h1 className="text-4xl mr-[15px]">resimex</h1>
+                <h1 className="text-4xl mr-[15px] className='absolute left-[195px] right-[65.62%] top-[38px] bottom-[752.5px] '">resimex</h1>
                 <Image
                   className="rounded-xl"
                   src={Logo}

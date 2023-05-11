@@ -5,10 +5,10 @@ export const navigation = [
   },
   {
     name: 'Testimonials',
-    href: '/testimonials',
+    href: '#testimonials',
   },
   {
     name: 'Contacts',
-    href: '/contacts',
+    href: '#contacts',
   },
 ];
